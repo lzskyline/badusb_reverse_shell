@@ -1,6 +1,6 @@
 # BadUsb Reverse Shell for Mac
 
-兼容中文输入法, 秒级执行, 窗口隐藏
+输入法兼容, 秒级执行, 窗口隐藏, 命令无痕
 
 Just for fun.
 

